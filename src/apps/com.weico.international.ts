@@ -28,6 +28,7 @@ export default defineGkdApp({
           matches:
             '@[name$="View" && clickable=true] > TextView[text="不感兴趣"]',
           action: 'clickNode',
+          preKeys: [1],
           snapshotUrls: 'https://i.gkd.li/i/20156511',
         },
       ],

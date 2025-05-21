@@ -9,4 +9,8 @@ export default defineGkdCategories([
     key: 2,
     name: '应用更新',
   },
+  {
+    key: 3,
+    name: '朋友圈广告',
+  },
 ]);
